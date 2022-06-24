@@ -2,6 +2,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
 }
+.content{
+    background-color: rgb(241, 248, 248);
+}
 nav{
     background-color: #346d8b;
     margin-top: 2%;
@@ -21,15 +24,16 @@ nav h2{
 img{
     border-radius: 100%;
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: 3%;    
+    border: 3px #346d8b groove;
 }
-.side{
+.sidebar{
     background-color: rgb(201, 222, 223);
 }
-.conte{
-    background-color: rgb(241, 248, 248);
-}
 h3{
+    margin-left: 5%;
+}
+h4{
     margin-left: 5%;
 }
 p{
@@ -38,12 +42,17 @@ p{
 }
 
 @media (min-width: 800px){
-    .complete{
-        height: 1300px;
+    .complet{
+        height: 1220px;
         width: 65%;
         background-color:rgb(241, 248, 248) ;
         margin-left: 20%;
         border-radius: 3%;
+    }
+    .content{
+        background-color: rgb(241, 248, 248);
+        float: right;
+        width: 70%;
     }
     nav{
         background-color: #346d8b;
@@ -52,7 +61,7 @@ p{
         border-top-right-radius: 2%;
         border-bottom-left-radius: 2%;
         border-bottom-right-radius: 2%;
-        height: 250px;
+        display: flex;
     }
     nav h1{
         color:aliceblue;
@@ -66,30 +75,20 @@ p{
         margin-left: 0%;
         border: 3px #346d8b groove;
     }
-    .title{
-        width: 55%;
-        margin-top: 8%;
-        float: right;
-        text-align: center;
-    }
-    .side{
+    .sidebar{
         background-color: rgb(201, 222, 223);
         width: 30%;
         float: left;
         border-radius: 2% ;
     }
-    .side .sides{
-        margin-top:40%;
+    .sidebar .side{
+        margin-top:20%;
     }
     h3{
         margin-left: 5%;
         margin-top:10%;
     }
-    .conte{
-        background-color: rgb(241, 248, 248);
-        float: right;
-        width: 70%;
-    }
+    
     article{
         border-bottom: 1px solid grey;
     }
@@ -97,5 +96,10 @@ p{
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 5%;
+    }
+    a{
+        margin-left: 5%;
+        color: #346d8b;
+        text-decoration-line: none;
     }
 }

@@ -1,41 +1,3 @@
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: justify;
-}
-nav{
-    background-color: #346d8b;
-    margin-top: 2%;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
-    border-bottom-left-radius: 2%;
-    border-bottom-right-radius: 2%;
-}
-nav h1{
-    color:aliceblue;
-    text-align: center;
-}
-nav h2{
-    color:rgb(192, 204, 204);
-    text-align: center;
-}
-img{
-    border-radius: 100%;
-    margin-top: 10%;
-    margin-left: 3%;
-}
-.sideb{
-    background-color: rgb(201, 222, 223);
-}
-.conte{
-    background-color: rgb(241, 248, 248);
-}
-h3{
-    margin-left: 5%;
-}
-p{
-    margin-left: 5%;
-    margin-right: 2%;
-}
 form{
     margin: 10% 15%;
     width: 70%;
@@ -65,66 +27,6 @@ button{
    margin-bottom: 3%;
 }
 @media (min-width: 800px){
-    .compl{
-        height: 1300px;
-        width: 65%;
-        background-color:rgb(241, 248, 248) ;
-        margin-left: 20%;
-        border-radius: 3%;
-    }
-    nav{
-        background-color: #346d8b;
-        margin-top: 2%;
-        border-top-left-radius: 55%;
-        border-top-right-radius: 2%;
-        border-bottom-left-radius: 2%;
-        border-bottom-right-radius: 2%;
-        height: 250px;
-    }
-    nav h1{
-        color:aliceblue;
-    }
-    nav h2{
-        color:rgb(192, 204, 204);
-    }
-    img{
-        border-radius: 100%;
-        margin-top: 8%;
-        margin-left: 0%;
-        border: 3px #346d8b groove;
-    }
-    .title{
-        width: 55%;
-        margin-top: 8%;
-        float: right;
-        text-align: center;
-    }
-    .sideb{
-        background-color: rgb(201, 222, 223);
-        width: 30%;
-        float: left;
-        border-radius: 2% ;
-    }
-    .sideb .sideba{
-        margin-top:40%;
-    }
-    h3{
-        margin-left: 5%;
-        margin-top:10%;
-    }
-    .conten{
-        background-color: rgb(241, 248, 248);
-        float: right;
-        width: 70%;
-    }
-    article{
-        border-bottom: 1px solid grey;
-    }
-    p{
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 5%;
-    }
     form{
         margin: 10% 15%;
         width: 70%;
